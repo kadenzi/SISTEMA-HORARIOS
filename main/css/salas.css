@@ -1,0 +1,71 @@
+/* salas.css */
+
+/* Estilo da Aba Salas */
+.salas {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.salas h3 {
+    color: #333;
+}
+
+.reservar-sala {
+    margin-bottom: 20px;
+    color: black;
+}
+
+#form-reserva {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#form-reserva label {
+    font-weight: bold;
+}
+
+#form-reserva select,
+#form-reserva input,
+#form-reserva button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#form-reserva button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+#form-reserva button:hover {
+    background-color: #218838;
+}
+
+/* Estilo do Calendário Placeholder */
+#calendario-ocupacao {
+    height: 200px;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+.regras-reserva {
+    color: black;
+}
+
+h5.escritabtn-regras{
+    color: black;
+    margin-left: 45px;
+    margin-top: -20px;
+}
+

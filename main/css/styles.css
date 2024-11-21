@@ -1,0 +1,133 @@
+
+/* Estilizar o Menu Lateral */
+.menu-lateral {
+    width: 180px;
+    background-color:#1D3249;
+    position: fixed;
+    left: 5px;
+    border-radius: 12px;
+    height: 247px;
+    margin-top: 0%;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu-lateral ul { 
+    list-style-type: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.menu-lateral ul li {
+    margin-bottom: -20px;
+}
+
+.menu-lateral ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    display: block;
+    font-size: 15px; 
+}
+
+.menu-lateral ul li a:hover {
+    background-color: #34495e;
+    color: #fff;
+}
+
+/* Ajustes para o Conteúdo Principal */
+.inicio-container {
+    margin-left: 220px; /* Espaço para o menu lateral */
+    padding: 20px;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #576784;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+/* Estilo do Dashboard */
+.dashboard {
+    background: #1D3249;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.dashboard-cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    flex: 1;
+    background: #0D7DBF;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilizar a o card de autalizações e notificações */
+.atualizacoes, .notificacoes {
+    background: #1D3249;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: disc;
+    padding: 1;
+    
+}
+
+li {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+/* Destaque Temporário para Atualizações */
+.destaque {
+    background-color: #e0f7fa;
+    transition: background-color 1s ease;
+}
+
+
+.perfil-container {
+    background-color: #1D3249;
+    width: 200px;
+    height: 235px;
+    left: 5px;
+    top: 270px;
+    color: white;
+    border-radius: 12px;
+    position: fixed;
+    font-size: 15px;
+    text-align: center;
+    border: white solid 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a.log-out {
+    color: wheat;
+    font-size: 12px;
+    
+}

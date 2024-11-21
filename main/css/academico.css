@@ -1,0 +1,88 @@
+/* Estilo da Aba Acadêmico */
+
+.academico {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.academico h3 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    background-color: #00b336;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #079df5;
+}
+
+.edit-btn {
+    background-color: #00b336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-btn:hover {
+    background-color: wheat ;
+}
+
+.status-alunos, .atribuir-professores, .cronograma-aulas {
+    margin-top: 20px;
+
+}
+
+/* Filtro de Status */
+.status-alunos label, .atribuir-professores label {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#filtro-status, #disciplina, #professor {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+
+
+#atribuir-prof {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#atribuir-prof:hover {
+    background-color: #218838;
+}
+
+/* Calendário Placeholder */
+#calendario {
+    height: 200px;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    border-radius: 8px;
+    margin-top: 10px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Acadêmico</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/academico.css">
+
+</head>
+<body>
+    <!-- Menu Lateral -->
+    <nav class="menu-lateral">
+        <ul class="menu-lateral">
+            <li><a href="index.html">Início</a></li><br>
+            <li><a href="academico.html">Acadêmico</a></li><br>
+            <li><a href="salas.html">Salas</a></li><br>
+            <li><a href="arte.html">Arte</a></li><br>
+            <li><a href="historico.html">Histórico</a></li><br>
+            <li><a href="configuracoes.html">Configurações</a></li><br>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <div class="inicio-container">
+        <!-- Aba Acadêmico -->
+        <section id="academico" class="academico">
+            <h2>Acadêmico</h2>
+            
+            <!-- Gerenciar Cursos -->
+            <div class="gerenciar-cursos">
+                <h3>Gerenciar Cursos e Disciplinas</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Curso</th>
+                            <th>Disciplina</th>
+                            <th>Modalidade</th>
+                            <th>Status do Aluno</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Engenharia</td>
+                            <td>Cálculo I</td>
+                            <td>Presencial</td>
+                            <td>Calouro</td>
+                            <td></td>
+                            <td><button class="edit-btn">✏️</button></td>
+                        </tr>
+                        <tr>
+                            <td>TADS</td>
+                            <td>Arq. Computadores</td>
+                            <td>Presencial</td>
+                            <td>Calouro</td>
+                            <td></td>
+                            <td><button class="edit-btn">✏️</button></td>
+                        </tr>
+                        <tr>
+                            <td>Psicologia</td>
+                            <td>Desenvolvimento Humano</td>
+                            <td>Semipresencial</td>
+                            <td>Veterano</td>
+                            <td></td>
+                            <td><button class="edit-btn">✏️</button></td>
+                        </tr>
+                        <!-- Adicione outras linhas aqui -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Status de Alunos -->
+            <div class="status-alunos">
+                <h3>Status de Alunos</h3>
+                <label for="filtro-status">Filtrar por Status:</label>
+                <select id="filtro-status">
+                    <option value="todos">Todos</option>
+                    <option value="calouro">Calouro</option>
+                    <option value="veterano">Veterano</option>
+                </select>
+            </div>
+
+            <!-- Atribuir Professores -->
+            <div class="atribuir-professores">
+                <h3>Atribuir Professores</h3>
+                <label>Disciplina:</label>
+                <select id="disciplina">
+                    <option value="calculo1">Cálculo I</option>
+                    <option value="fisica">Física</option>
+                    <!-- Outras disciplinas -->
+                </select>
+                <label>Professor:</label>
+                <select id="professor">
+                    <option value="professor1">Professor A</option>
+                    <option value="professor2">Professor B</option>
+                    <!-- Outros professores -->
+                </select>
+                <button id="atribuir-prof">Atribuir</button>
+            </div>
+
+            <!-- Cronograma de Aulas -->
+            <div class="cronograma-aulas">
+                <h3>Cronograma de Aulas</h3>
+                <!-- Placeholder para o calendário -->
+                <div id="calendario">[Calendário Semanal/Mensal]</div>
+            </div>
+        </section>
+        <div class="perfil-container">
+            Meu Perfil <br><br><br><br><br><br><br>
+            Nome da Pessoa <br><br><br>
+
+            <a href="#pagine de login" class="log-out">Sair</a>
+           
+        </div>
+    </div>
+    <script src="js/academico.js"></script>
+
+</body>
+</html>

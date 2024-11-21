@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico - Sistema Acadêmico</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/historico.css">
+</head>
+<body>
+    <!-- Menu Lateral -->
+    <nav class="menu-lateral">
+        <ul class="menu-lateral">
+            <li><a href="index.html">Início</a></li><br>
+            <li><a href="academico.html">Acadêmico</a></li><br>
+            <li><a href="salas.html">Salas</a></li><br>
+            <li><a href="arte.html">Arte</a></li><br>
+            <li><a href="historico.html">Histórico</a></li><br>
+            <li><a href="configuracoes.html">Configurações</a></li><br>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo Principal da Aba Histórico -->
+    <div class="inicio-container">
+        <section class="historico">
+            <h2>Histórico de Alterações</h2>
+
+            <!-- Linha do Tempo de Alterações -->
+            <div class="linha-do-tempo" id="linha-do-tempo">
+                <div class="alteracao">
+                    <span class="data">02/11/2024</span>
+                    <p>Curso de Matemática alterado por <strong>Admin</strong></p>
+                </div>
+                <div class="alteracao">
+                    <span class="data">01/11/2024</span>
+                    <p>Reserva de sala confirmada por <strong>Professor A</strong></p>
+                </div>
+                <div class="alteracao">
+                    <span class="data">30/10/2024</span>
+                    <p>Disciplina "Biologia Avançada" adicionada por <strong>Admin</strong></p>
+                </div>
+            </div>
+
+            <!-- Controle de Permissões -->
+            <div class="controle-permissoes">
+                <h3>Controle de Permissões</h3>
+                <label for="nivel-acesso">Nível de Acesso:</label>
+                <select id="nivel-acesso">
+                    <option value="admin">Administrador</option>
+                    <option value="professor">Professor</option>
+                    <option value="funcionario">Funcionário</option>
+                </select>
+                <button id="atualizar-permissoes">Atualizar Permissões</button>
+            </div>
+        </section>
+        <div class="perfil-container">
+            Meu Perfil <br><br><br><br><br><br><br>
+            Nome da Pessoa <br><br><br>
+
+            <a href="#pagine de login" class="log-out">Sair</a>
+           
+        </div>
+    </div>
+
+    <script src="js/historico.js"></script>
+</body>
+</html>

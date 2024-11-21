@@ -1,0 +1,50 @@
+/* arte.css */
+
+/* Estilo da Aba Arte */
+.arte {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.editar-canva, .gerenciar-noticias, .configurar-tvs {
+    margin-bottom: 20px;
+}
+
+#upload-imagem {
+    margin-bottom: 10px;
+}
+
+#preview-imagens {
+    height: 200px;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

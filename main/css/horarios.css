@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1{
+  flex: 1;
+  text-align: center;
+  margin: 1rem;
+}
+
+#logo{
+  max-width: 150px;
+  height: auto;
+}
+
+main{
+  margin: 0px 5px 0px 5px;
+}
+
+.secao-1{
+  display: flex;
+  justify-content: center;
+}
+
+.curso-card{
+  max-width: fit-content;
+  max-height: fit-content;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-height: fit-content;
+  min-height: fit-content;
+  margin: 5px;
+}
+
+.curso-card h2{
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  overflow-wrap: break-word;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.disciplina{
+  background-color: #f9f8f8;
+  border-radius: 10px;
+}
+
+.disciplina h3{
+  text-align: center;
+  font-size: 18px;
+  margin: 5px;
+  overflow-wrap: break-word;
+}
+
+.top{
+  font-size: 16px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top p{
+  margin: 2px;
+}
+
+.mid{
+  font-size: 16px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+
+.mid p{
+  margin: 2px;
+}
+
+.footer{
+  font-size: 14px;
+  margin: 2px 2px 5px 2px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.secao-2{
+  display: flex;
+  justify-content: center;
+}
+
+.secao-3{
+  display: flex;
+  justify-content: center;
+}
+
+#a{
+  background-color: #9696FA;
+}
+
+#b{
+  background-color: #F596FA;
+}
+
+#c{
+  background-color: #FA9698;
+}
+
+#d{
+  background-color: #96FAC8;
+}
+
+#e{
+  background-color: #BBFA96;
+}
+
+#f{
+  background-color: #FAF396;
+}
+
+#g{
+  background-color: #FAF396;
+}
+
+#h{
+  background-color: #BBFA96;
+}
+
+#i{
+  background-color: #96FAC8;
+}
+
+#j{
+  background-color: #FA9698;
+}
+
+#k{
+  background-color: #F596FA;
+}
+
+#l{
+  background-color: #9696FA;
+}
+
+
+@media (max-width: 768px) {
+  header {
+      flex-wrap: wrap;
+      gap: 1rem;
+      flex-direction: column;
+  }
+}

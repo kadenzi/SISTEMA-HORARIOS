@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salas - Sistema Acadêmico</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/salas.css">
+</head>
+<body>
+    <!-- Menu Lateral -->
+    <nav class="menu-lateral">
+        <ul class="menu-lateral">
+            <li><a href="index.html">Início</a></li><br>
+            <li><a href="academico.html">Acadêmico</a></li><br>
+            <li><a href="salas.html">Salas</a></li><br>
+            <li><a href="arte.html">Arte</a></li><br>
+            <li><a href="historico.html">Histórico</a></li><br>
+            <li><a href="configuracoes.html">Configurações</a></li><br>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo Principal da Aba Salas -->
+    <div class="inicio-container">
+        <section class="salas">
+            <h2>Gestão de Salas</h2>
+
+            <!-- Reservar Sala -->
+            <div class="reservar-sala">
+                <h3>Reservar Sala</h3>
+                <form id="form-reserva">
+                    <label for="sala">Sala:</label>
+                    <select id="sala">
+                        <option value="salaB202">Sala B202</option>
+                        <option value="SalaB203">Sala B203</option>
+                        <option value="SalaB204">Sala B204</option>
+                    </select>
+                
+                    <label for="professor">Professor(a):</label>
+                    <select id="professor">
+                        <option value="Enildinha">Enildinha</option>
+                        <option value="Ermani">Ermani</option>
+                        <option value="William">William</option>
+                        <option value="Helton">Helton</option>
+                        <option value="Matteus">Matteus</option>
+                    </select>
+
+                    <label for="data">Data:</label>
+                    <input type="date" id="data">
+
+                    <label for="horario">Horário:</label>
+                    <input type="time" id="horario">
+
+                    <button type="submit">Reservar</button>
+                </form>
+            </div>
+
+            <!-- Verificar Ocupação -->
+            <div class="verificar-ocupacao">
+                <h3>Ocupação das Salas</h3>
+                <div id="calendario-ocupacao">[Calendário Placeholder]</div>
+                
+            </div>
+
+            <!-- Regras de Reserva -->
+            <div class="regras-reserva">
+                <h3>Regras de Reserva</h3>
+                <ul>
+                    <li>Reservas podem ser feitas com até 2 semanas de antecedência.</li>
+                    <li>Alterações são permitidas até 48 horas antes da aula.</li>
+                    <li>Salas ocupadas estão destacadas em vermelho no calendário.</li>
+                </ul>
+                <button class="btn-regras">✏️</button>
+                <h5 class="escritabtn-regras">Clique para editar.</h5>
+            </div>
+        </section>
+        <div class="perfil-container">
+            Meu Perfil <br><br><br><br><br><br><br>
+            Nome da Pessoa <br><br><br>
+
+            <a href="#pagine de login" class="log-out">Sair</a>
+           
+        </div>
+    </div>
+
+    <script src="js/salas.js"></script>
+</body>
+</html>

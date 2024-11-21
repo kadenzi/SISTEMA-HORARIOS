@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte - Sistema Acadêmico</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/arte.css">
+</head>
+<body>
+    <!-- Menu Lateral -->
+    <nav class="menu-lateral">
+        <ul class="menu-lateral">
+            <li><a href="index.html">Início</a></li><br>
+            <li><a href="academico.html">Acadêmico</a></li><br>
+            <li><a href="salas.html">Salas</a></li><br>
+            <li><a href="arte.html">Arte</a></li><br>
+            <li><a href="historico.html">Histórico</a></li><br>
+            <li><a href="configuracoes.html">Configurações</a></li><br>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo Principal da Aba Arte -->
+    <div class="inicio-container">
+        <section class="arte">
+            <h2>Gestão de Arte e Exibição</h2>
+
+            <!-- Editar Canva -->
+            <div class="editar-canva">
+                <h3>Editar Canva</h3>
+                <input type="file" id="upload-imagem" accept="image/*">
+                <button id="adicionar-imagem">Adicionar Imagem</button>
+                <div id="preview-imagens">[Pré-visualização das Imagens]</div>
+            </div>
+
+            <!-- Gerenciar Notícias -->
+            <div class="gerenciar-noticias">
+                <h3>Gerenciar Notícias</h3>
+                <form id="form-noticias">
+                    <label for="titulo-noticia">Título:</label>
+                    <input type="text" id="titulo-noticia" placeholder="Digite o título da notícia">
+
+                    <label for="conteudo-noticia">Conteúdo:</label>
+                    <textarea id="conteudo-noticia" placeholder="Digite o conteúdo da notícia"></textarea>
+
+                    <button type="submit">Salvar Notícia</button>
+                </form>
+                <div id="lista-noticias">[Lista de Notícias]</div>
+            </div>
+
+            <!-- Configurar TVs -->
+            <div class="configurar-tvs">
+                <h3>Configurar TVs</h3>
+                <label for="layout-tvs">Escolha o Layout:</label>
+                <select id="layout-tvs">
+                    <option value="padrao">Padrão</option>
+                    <option value="noticias">Notícias e Informações</option>
+                    <option value="horarios">Horários e Salas</option>
+                </select>
+                <button id="salvar-configuracoes">Salvar Configurações</button>
+            </div>
+        </section>
+        <div class="perfil-container">
+            Meu Perfil <br><br><br><br><br><br><br>
+            Nome da Pessoa <br><br><br>
+
+            <a href="#pagine de login" class="log-out">Sair</a>
+           
+        </div>
+    </div>
+
+    <script src="js/arte.js"></script>
+</body>
+</html>

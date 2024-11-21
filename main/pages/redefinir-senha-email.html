@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recupere sua senha - Via Email</title>
+    <link rel="stylesheet" href="../css/redefinir-senha-email.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+        </div>
+        <div class="right">
+            <div class="welcome-message">Perdeu a sua senha: recupere via email agora</div>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmar-email">Confirmar Email</label>
+                    <input type="email" id="confirmar-email" name="confirmar-email" required>
+                </div>
+                <div class="info-message">
+                    Um código será enviado para a sua caixa de entrada. Copie esse código e cole na próxima tela. Certifique-se de que o seu nome e email estão corretos.
+                </div>
+                <button type="submit" class="btn">Obter Código</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
