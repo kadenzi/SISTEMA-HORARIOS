@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Configurações - Sistema Acadêmico</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/configuracoes.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/configuracoes.css">
 </head>
 <body>
-    <!-- Menu Lateral -->
+
     <nav class="menu-lateral">
         <ul class="menu-lateral">
-            <li><a href="index.html">Início</a></li><br>
+            <li><a href="../pages/index.php">Início</a></li><br>
             <li><a href="academico.html">Acadêmico</a></li><br>
             <li><a href="salas.html">Salas</a></li><br>
             <li><a href="arte.html">Arte</a></li><br>
@@ -20,13 +20,14 @@
         </ul>
     </nav>
 
-    <!-- Conteúdo Principal da Aba Configurações -->
     <div class="inicio-container">
+        
         <section class="configuracoes">
-            <h2>Configurações do Sistema</h2>
 
-            <!-- Preferências do Sistema -->
+                <h2>Configurações do Sistema</h2>
+
             <div class="preferencias-sistema">
+               
                 <h3>Preferências do Sistema</h3>
                 <label for="tema">Tema:</label>
                 <select id="tema">
@@ -36,7 +37,6 @@
                 <button id="salvar-preferencias">Salvar Preferências</button>
             </div>
 
-            <!-- Integrações -->
             <div class="integracoes">
                 <h3>Integrações</h3>
                 <label for="canva-integracao">Integrar com Canva:</label>
@@ -47,23 +47,11 @@
                 <button id="salvar-integracao">Salvar Integração</button>
             </div>
 
-            <!-- Backup e Restauração -->
-            <div class="backup-restauracao">
-                <h3>Backup e Restauração</h3>
-                <button id="criar-backup">Criar Backup</button>
-                <button id="restaurar-backup">Restaurar Backup</button>
-                <div id="status-backup">[Status do Backup]</div>
-            </div>
-        </section>
-        <div class="perfil-container">
-            Meu Perfil <br><br><br><br><br><br><br>
-            Nome da Pessoa <br><br><br>
-
-            <a href="#pagine de login" class="log-out">Sair</a>
+            <a href="../pages/login.php" class="log-out">Sair</a>
            
         </div>
     </div>
 
-    <script src="js/configuracoes.js"></script>
+    <script src="../js/configuracoes.js"></script>
 </body>
 </html>

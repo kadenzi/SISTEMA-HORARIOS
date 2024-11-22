@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salas - Sistema Acadêmico</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/salas.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/salas.css">
 </head>
 <body>
-    <!-- Menu Lateral -->
+
     <nav class="menu-lateral">
         <ul class="menu-lateral">
-            <li><a href="index.html">Início</a></li><br>
+            <li><a href="../pages/index.php">Início</a></li><br>
             <li><a href="academico.html">Acadêmico</a></li><br>
             <li><a href="salas.html">Salas</a></li><br>
             <li><a href="arte.html">Arte</a></li><br>
@@ -20,12 +20,10 @@
         </ul>
     </nav>
 
-    <!-- Conteúdo Principal da Aba Salas -->
     <div class="inicio-container">
         <section class="salas">
             <h2>Gestão de Salas</h2>
 
-            <!-- Reservar Sala -->
             <div class="reservar-sala">
                 <h3>Reservar Sala</h3>
                 <form id="form-reserva">
@@ -54,15 +52,13 @@
                     <button type="submit">Reservar</button>
                 </form>
             </div>
-
-            <!-- Verificar Ocupação -->
+            
             <div class="verificar-ocupacao">
                 <h3>Ocupação das Salas</h3>
                 <div id="calendario-ocupacao">[Calendário Placeholder]</div>
                 
             </div>
 
-            <!-- Regras de Reserva -->
             <div class="regras-reserva">
                 <h3>Regras de Reserva</h3>
                 <ul>
@@ -78,11 +74,11 @@
             Meu Perfil <br><br><br><br><br><br><br>
             Nome da Pessoa <br><br><br>
 
-            <a href="#pagine de login" class="log-out">Sair</a>
+            <a href="../pages/login.php" class="log-out">Sair</a>
            
         </div>
     </div>
 
-    <script src="js/salas.js"></script>
+    <script src="../js/salas.js"></script>
 </body>
 </html>

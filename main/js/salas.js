@@ -1,6 +1,3 @@
-// salas.js
-
-// Função para lidar com o envio do formulário de reserva
 document.getElementById("form-reserva").addEventListener("submit", function(event) {
     event.preventDefault();
 
@@ -10,7 +7,6 @@ document.getElementById("form-reserva").addEventListener("submit", function(even
 
     if (sala && data && horario) {
         alert(`Reserva confirmada para ${sala} em ${data} às ${horario}.`);
-        // Aqui você pode adicionar código para salvar a reserva em um backend ou API.
     } else {
         alert("Por favor, preencha todos os campos para fazer a reserva.");
     }

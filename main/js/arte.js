@@ -1,6 +1,3 @@
-// arte.js
-
-// Função para adicionar imagem ao preview
 document.getElementById("adicionar-imagem").addEventListener("click", () => {
     const uploadImagem = document.getElementById("upload-imagem");
     const preview = document.getElementById("preview-imagens");
@@ -16,7 +13,6 @@ document.getElementById("adicionar-imagem").addEventListener("click", () => {
     }
 });
 
-// Função para salvar notícia
 document.getElementById("form-noticias").addEventListener("submit", (event) => {
     event.preventDefault();
 
@@ -33,8 +29,6 @@ document.getElementById("form-noticias").addEventListener("submit", (event) => {
         alert("Preencha todos os campos para salvar a notícia.");
     }
 });
-
-// Função para salvar configurações de layout das TVs
 document.getElementById("salvar-configuracoes").addEventListener("click", () => {
     const layout = document.getElementById("layout-tvs").value;
     alert(`Configurações salvas: Layout selecionado - ${layout}`);

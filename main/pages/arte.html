@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arte - Sistema Acadêmico</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/arte.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/arte.css">
 </head>
 <body>
-    <!-- Menu Lateral -->
+
     <nav class="menu-lateral">
         <ul class="menu-lateral">
-            <li><a href="index.html">Início</a></li><br>
+            <li><a href="../pages/index.php">Início</a></li><br>
             <li><a href="academico.html">Acadêmico</a></li><br>
             <li><a href="salas.html">Salas</a></li><br>
             <li><a href="arte.html">Arte</a></li><br>
@@ -20,12 +20,10 @@
         </ul>
     </nav>
 
-    <!-- Conteúdo Principal da Aba Arte -->
     <div class="inicio-container">
         <section class="arte">
             <h2>Gestão de Arte e Exibição</h2>
 
-            <!-- Editar Canva -->
             <div class="editar-canva">
                 <h3>Editar Canva</h3>
                 <input type="file" id="upload-imagem" accept="image/*">
@@ -33,7 +31,6 @@
                 <div id="preview-imagens">[Pré-visualização das Imagens]</div>
             </div>
 
-            <!-- Gerenciar Notícias -->
             <div class="gerenciar-noticias">
                 <h3>Gerenciar Notícias</h3>
                 <form id="form-noticias">
@@ -48,7 +45,6 @@
                 <div id="lista-noticias">[Lista de Notícias]</div>
             </div>
 
-            <!-- Configurar TVs -->
             <div class="configurar-tvs">
                 <h3>Configurar TVs</h3>
                 <label for="layout-tvs">Escolha o Layout:</label>
@@ -64,11 +60,11 @@
             Meu Perfil <br><br><br><br><br><br><br>
             Nome da Pessoa <br><br><br>
 
-            <a href="#pagine de login" class="log-out">Sair</a>
+            <a href="../pages/login.php" class="log-out">Sair</a>
            
         </div>
     </div>
 
-    <script src="js/arte.js"></script>
+    <script src="../js/arte.js"></script>
 </body>
 </html>

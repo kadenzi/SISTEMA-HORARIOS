@@ -1,6 +1,3 @@
-// script.js
-
-// Função para filtrar alunos pelo status (calouro ou veterano)
 document.getElementById("filtro-status").addEventListener("change", function() {
     const status = this.value;
     const rows = document.querySelectorAll(".gerenciar-cursos tbody tr");
@@ -14,8 +11,6 @@ document.getElementById("filtro-status").addEventListener("change", function() {
         }
     });
 });
-
-// Função para atribuir professor a uma disciplina
 document.getElementById("atribuir-prof").addEventListener("click", function() {
     const disciplina = document.getElementById("disciplina").value;
     const professor = document.getElementById("professor").value;
